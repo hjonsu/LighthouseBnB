@@ -12,6 +12,7 @@ $(() => {
   function addListing(listing) {
     $propertyListings.append(listing);
   }
+
   function clearListings() {
     $propertyListings.empty();
   }
